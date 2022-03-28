@@ -29,7 +29,7 @@ public class Main {
         double resultValue = 0;
         n = (int) ((Math.random()*15) + 2);
 
-        //natural number check
+        //natural number check (for input)
         if (n <= 0)
             System.out.println("Начните заново, и введите натуральное число:)");
         else {
