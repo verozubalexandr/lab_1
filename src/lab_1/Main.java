@@ -30,7 +30,7 @@ public class Main {
         n = (int) ((Math.random()*15) + 2);
 
         //natural number check
-        if (n <= 0 && n%1 != 0)
+        if (n <= 0)
             System.out.println("Начните заново, и введите натуральное число:)");
         else {
             for( int i = 1; i <= n; i++) {
